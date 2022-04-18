@@ -1,0 +1,119 @@
+-arg -w
+-arg -notation-overridden
+-arg -w
+-arg -redundant-canonical-projection
+-arg -w
+-arg -convert_concl_no_check
+-arg -w
+-arg -undeclared-scope
+-arg -w
+-arg -ambiguous-paths
+-Q theories/iris iris
+-Q theories/TMC TMC
+theories/iris/algebra/gmap.v
+theories/iris/algebra/frac.v
+theories/iris/algebra/agree.v
+theories/iris/algebra/monoid.v
+theories/iris/algebra/list.v
+theories/iris/algebra/ufrac.v
+theories/iris/algebra/auth.v
+theories/iris/algebra/functions.v
+theories/iris/algebra/namespace_map.v
+theories/iris/algebra/big_op.v
+theories/iris/algebra/csum.v
+theories/iris/algebra/ofe.v
+theories/iris/algebra/ordinals/set_ordinals.v
+theories/iris/algebra/ordinals/set_functions.v
+theories/iris/algebra/ordinals/arithmetic.v
+theories/iris/algebra/ordinals/ord_stepindex.v
+theories/iris/algebra/ordinals/set_sets.v
+theories/iris/algebra/ordinals/set_model.v
+theories/iris/algebra/excl.v
+theories/iris/algebra/vector.v
+theories/iris/algebra/local_updates.v
+theories/iris/algebra/wf_IR.v
+theories/iris/algebra/mlist.v
+theories/iris/algebra/auth_frac.v
+theories/iris/algebra/cofe_solver.v
+theories/iris/algebra/base.v
+theories/iris/algebra/proofmode_classes.v
+theories/iris/algebra/cmra.v
+theories/iris/algebra/ufrac_auth.v
+theories/iris/algebra/coPset.v
+theories/iris/algebra/frac_auth.v
+theories/iris/algebra/stepindex.v
+theories/iris/algebra/gset.v
+theories/iris/algebra/dfrac.v
+theories/iris/algebra/updates.v
+theories/iris/algebra/auth_map.v
+theories/iris/algebra/gmultiset.v
+theories/iris/base_logic/satisfiable.v
+theories/iris/base_logic/base_logic.v
+theories/iris/base_logic/derived.v
+theories/iris/base_logic/upred.v
+theories/iris/base_logic/lib/invariants.v
+theories/iris/base_logic/lib/logical_step.v
+theories/iris/base_logic/lib/proph_map.v
+theories/iris/base_logic/lib/iprop.v
+theories/iris/base_logic/lib/viewshifts.v
+theories/iris/base_logic/lib/na_invariants.v
+theories/iris/base_logic/lib/gen_heap.v
+theories/iris/base_logic/lib/cancelable_invariants.v
+theories/iris/base_logic/lib/own.v
+theories/iris/base_logic/lib/fancy_updates.v
+theories/iris/base_logic/lib/wsat.v
+theories/iris/base_logic/lib/saved_prop.v
+theories/iris/base_logic/proofmode.v
+theories/iris/base_logic/bi.v
+theories/iris/bi/telescopes.v
+theories/iris/bi/interface.v
+theories/iris/bi/satisfiable.v
+theories/iris/bi/big_op.v
+theories/iris/bi/embedding.v
+theories/iris/bi/derived_laws_sbi.v
+theories/iris/bi/weakestpre.v
+theories/iris/bi/derived_laws_bi.v
+theories/iris/bi/notation.v
+theories/iris/bi/tactics.v
+theories/iris/bi/derived_connectives.v
+theories/iris/bi/lib/fractional.v
+theories/iris/bi/lib/fixpoint.v
+theories/iris/bi/bi.v
+theories/iris/bi/updates.v
+theories/iris/bi/plainly.v
+theories/iris/program_logic/adequacy.v
+theories/iris/program_logic/weakestpre.v
+theories/iris/program_logic/hoare.v
+theories/iris/program_logic/refinement/tc_weakestpre.v
+theories/iris/program_logic/refinement/ref_ectx_lifting.v
+theories/iris/program_logic/refinement/ref_lifting.v
+theories/iris/program_logic/refinement/ref_source.v
+theories/iris/program_logic/refinement/ref_adequacy.v
+theories/iris/program_logic/refinement/ref_weakestpre.v
+theories/iris/program_logic/refinement/seq_weakestpre.v
+theories/iris/program_logic/ectxi_language.v
+theories/iris/program_logic/ectx_language.v
+theories/iris/program_logic/lifting.v
+theories/iris/program_logic/language.v
+theories/iris/program_logic/ectx_lifting.v
+theories/iris/proofmode/class_instances_bi.v
+theories/iris/proofmode/modality_instances.v
+theories/iris/proofmode/ltac_tactics.v
+theories/iris/proofmode/notation.v
+theories/iris/proofmode/spec_patterns.v
+theories/iris/proofmode/frame_instances.v
+theories/iris/proofmode/modalities.v
+theories/iris/proofmode/intro_patterns.v
+theories/iris/proofmode/base.v
+theories/iris/proofmode/environments.v
+theories/iris/proofmode/tactics.v
+theories/iris/proofmode/reduction.v
+theories/iris/proofmode/sel_patterns.v
+theories/iris/proofmode/coq_tactics.v
+theories/iris/proofmode/class_instances_sbi.v
+theories/iris/proofmode/classes.v
+theories/iris/proofmode/tokens.v
+theories/TMC/lang.v
+theories/TMC/notation.v
+theories/TMC/locations.v
+theories/TMC/tactics.v

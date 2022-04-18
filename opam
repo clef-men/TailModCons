@@ -1,0 +1,15 @@
+opam-version: "2.0"
+maintainer: "Clément Allain <clement.allain@inria.fr>"
+authors: "Clément Allain, François Pottier, Gabriel Scherer"
+homepage: "https://github.com/clef-men/TRMC"
+bug-reports: "https://github.com/clef-men/TRMC/issues"
+synopsis: "Optimization of tail calls modulo constructor in Iris"
+
+depends: [
+  "coq" { (= "8.10.2") }
+  "coq-stdpp" { (= "1.3.0") }
+  "coq-autosubst"
+]
+
+build: [make "-j%{jobs}%"]
+install: [make "install"]
