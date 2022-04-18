@@ -58,7 +58,7 @@ Notation "( e1 , e2 , .. , en )" :=
   (Pair .. (Pair e1%E e2%E) .. en%E)
 : expr_scope.
 
-Notation "( e1 , i , e2 )" :=
+Notation "( e1 | i | e2 )" :=
   (PairIdx i%index e1%E e2%E)
 : expr_scope.
 
